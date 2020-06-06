@@ -1,7 +1,7 @@
 defmodule Ueberauth.Facebook.Mixfile do
   use Mix.Project
 
-  @version "0.8.1"
+  @version "0.8.2"
   @url "https://github.com/ueberauth/ueberauth_facebook"
 
   def project do
@@ -37,7 +37,7 @@ defmodule Ueberauth.Facebook.Mixfile do
   end
 
   defp description do
-    "An Uberauth strategy for Facebook authentication."
+    "An Uberauth strategy for Facebook authentication"
   end
 
   defp package do
